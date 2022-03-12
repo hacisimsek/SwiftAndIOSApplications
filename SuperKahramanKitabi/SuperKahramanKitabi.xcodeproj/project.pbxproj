@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1CF2CD27A7038C006C8360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CF2CC27A7038C006C8360 /* AppDelegate.swift */; };
+		EC1CF2CF27A7038C006C8360 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CF2CE27A7038C006C8360 /* SceneDelegate.swift */; };
+		EC1CF2D127A7038C006C8360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CF2D027A7038C006C8360 /* ViewController.swift */; };
+		EC1CF2D427A7038C006C8360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1CF2D227A7038C006C8360 /* Main.storyboard */; };
+		EC1CF2D627A7038D006C8360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1CF2D527A7038D006C8360 /* Assets.xcassets */; };
+		EC1CF2D927A7038D006C8360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1CF2D727A7038D006C8360 /* LaunchScreen.storyboard */; };
+		EC1CF2E427A7038D006C8360 /* SuperKahramanKitabiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CF2E327A7038D006C8360 /* SuperKahramanKitabiTests.swift */; };
+		EC1CF2EE27A7038D006C8360 /* SuperKahramanKitabiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CF2ED27A7038D006C8360 /* SuperKahramanKitabiUITests.swift */; };
+		EC1CF2F027A7038D006C8360 /* SuperKahramanKitabiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CF2EF27A7038D006C8360 /* SuperKahramanKitabiUITestsLaunchTests.swift */; };
+		EC1CF2FD27A71F0C006C8360 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CF2FC27A71F0C006C8360 /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1CF2E027A7038D006C8360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1CF2C127A7038C006C8360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1CF2C827A7038C006C8360;
+			remoteInfo = SuperKahramanKitabi;
+		};
+		EC1CF2EA27A7038D006C8360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1CF2C127A7038C006C8360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1CF2C827A7038C006C8360;
+			remoteInfo = SuperKahramanKitabi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1CF2C927A7038C006C8360 /* SuperKahramanKitabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperKahramanKitabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1CF2CC27A7038C006C8360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1CF2CE27A7038C006C8360 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC1CF2D027A7038C006C8360 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1CF2D327A7038C006C8360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1CF2D527A7038D006C8360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1CF2D827A7038D006C8360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1CF2DA27A7038D006C8360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1CF2DF27A7038D006C8360 /* SuperKahramanKitabiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperKahramanKitabiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1CF2E327A7038D006C8360 /* SuperKahramanKitabiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahramanKitabiTests.swift; sourceTree = "<group>"; };
+		EC1CF2E927A7038D006C8360 /* SuperKahramanKitabiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperKahramanKitabiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1CF2ED27A7038D006C8360 /* SuperKahramanKitabiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahramanKitabiUITests.swift; sourceTree = "<group>"; };
+		EC1CF2EF27A7038D006C8360 /* SuperKahramanKitabiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahramanKitabiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC1CF2FC27A71F0C006C8360 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1CF2C627A7038C006C8360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CF2DC27A7038D006C8360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CF2E627A7038D006C8360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1CF2C027A7038C006C8360 = {
+			isa = PBXGroup;
+			children = (
+				EC1CF2CB27A7038C006C8360 /* SuperKahramanKitabi */,
+				EC1CF2E227A7038D006C8360 /* SuperKahramanKitabiTests */,
+				EC1CF2EC27A7038D006C8360 /* SuperKahramanKitabiUITests */,
+				EC1CF2CA27A7038C006C8360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1CF2CA27A7038C006C8360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CF2C927A7038C006C8360 /* SuperKahramanKitabi.app */,
+				EC1CF2DF27A7038D006C8360 /* SuperKahramanKitabiTests.xctest */,
+				EC1CF2E927A7038D006C8360 /* SuperKahramanKitabiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1CF2CB27A7038C006C8360 /* SuperKahramanKitabi */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CF2CC27A7038C006C8360 /* AppDelegate.swift */,
+				EC1CF2CE27A7038C006C8360 /* SceneDelegate.swift */,
+				EC1CF2D027A7038C006C8360 /* ViewController.swift */,
+				EC1CF2FC27A71F0C006C8360 /* DetailsViewController.swift */,
+				EC1CF2D227A7038C006C8360 /* Main.storyboard */,
+				EC1CF2D527A7038D006C8360 /* Assets.xcassets */,
+				EC1CF2D727A7038D006C8360 /* LaunchScreen.storyboard */,
+				EC1CF2DA27A7038D006C8360 /* Info.plist */,
+			);
+			path = SuperKahramanKitabi;
+			sourceTree = "<group>";
+		};
+		EC1CF2E227A7038D006C8360 /* SuperKahramanKitabiTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CF2E327A7038D006C8360 /* SuperKahramanKitabiTests.swift */,
+			);
+			path = SuperKahramanKitabiTests;
+			sourceTree = "<group>";
+		};
+		EC1CF2EC27A7038D006C8360 /* SuperKahramanKitabiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CF2ED27A7038D006C8360 /* SuperKahramanKitabiUITests.swift */,
+				EC1CF2EF27A7038D006C8360 /* SuperKahramanKitabiUITestsLaunchTests.swift */,
+			);
+			path = SuperKahramanKitabiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1CF2C827A7038C006C8360 /* SuperKahramanKitabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1CF2F327A7038D006C8360 /* Build configuration list for PBXNativeTarget "SuperKahramanKitabi" */;
+			buildPhases = (
+				EC1CF2C527A7038C006C8360 /* Sources */,
+				EC1CF2C627A7038C006C8360 /* Frameworks */,
+				EC1CF2C727A7038C006C8360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperKahramanKitabi;
+			productName = SuperKahramanKitabi;
+			productReference = EC1CF2C927A7038C006C8360 /* SuperKahramanKitabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1CF2DE27A7038D006C8360 /* SuperKahramanKitabiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1CF2F627A7038D006C8360 /* Build configuration list for PBXNativeTarget "SuperKahramanKitabiTests" */;
+			buildPhases = (
+				EC1CF2DB27A7038D006C8360 /* Sources */,
+				EC1CF2DC27A7038D006C8360 /* Frameworks */,
+				EC1CF2DD27A7038D006C8360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1CF2E127A7038D006C8360 /* PBXTargetDependency */,
+			);
+			name = SuperKahramanKitabiTests;
+			productName = SuperKahramanKitabiTests;
+			productReference = EC1CF2DF27A7038D006C8360 /* SuperKahramanKitabiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1CF2E827A7038D006C8360 /* SuperKahramanKitabiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1CF2F927A7038D006C8360 /* Build configuration list for PBXNativeTarget "SuperKahramanKitabiUITests" */;
+			buildPhases = (
+				EC1CF2E527A7038D006C8360 /* Sources */,
+				EC1CF2E627A7038D006C8360 /* Frameworks */,
+				EC1CF2E727A7038D006C8360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1CF2EB27A7038D006C8360 /* PBXTargetDependency */,
+			);
+			name = SuperKahramanKitabiUITests;
+			productName = SuperKahramanKitabiUITests;
+			productReference = EC1CF2E927A7038D006C8360 /* SuperKahramanKitabiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1CF2C127A7038C006C8360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EC1CF2C827A7038C006C8360 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EC1CF2DE27A7038D006C8360 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EC1CF2C827A7038C006C8360;
+					};
+					EC1CF2E827A7038D006C8360 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EC1CF2C827A7038C006C8360;
+					};
+				};
+			};
+			buildConfigurationList = EC1CF2C427A7038C006C8360 /* Build configuration list for PBXProject "SuperKahramanKitabi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1CF2C027A7038C006C8360;
+			productRefGroup = EC1CF2CA27A7038C006C8360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1CF2C827A7038C006C8360 /* SuperKahramanKitabi */,
+				EC1CF2DE27A7038D006C8360 /* SuperKahramanKitabiTests */,
+				EC1CF2E827A7038D006C8360 /* SuperKahramanKitabiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1CF2C727A7038C006C8360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1CF2D927A7038D006C8360 /* LaunchScreen.storyboard in Resources */,
+				EC1CF2D627A7038D006C8360 /* Assets.xcassets in Resources */,
+				EC1CF2D427A7038C006C8360 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CF2DD27A7038D006C8360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CF2E727A7038D006C8360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1CF2C527A7038C006C8360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1CF2D127A7038C006C8360 /* ViewController.swift in Sources */,
+				EC1CF2CD27A7038C006C8360 /* AppDelegate.swift in Sources */,
+				EC1CF2CF27A7038C006C8360 /* SceneDelegate.swift in Sources */,
+				EC1CF2FD27A71F0C006C8360 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CF2DB27A7038D006C8360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1CF2E427A7038D006C8360 /* SuperKahramanKitabiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1CF2E527A7038D006C8360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1CF2EE27A7038D006C8360 /* SuperKahramanKitabiUITests.swift in Sources */,
+				EC1CF2F027A7038D006C8360 /* SuperKahramanKitabiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1CF2E127A7038D006C8360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1CF2C827A7038C006C8360 /* SuperKahramanKitabi */;
+			targetProxy = EC1CF2E027A7038D006C8360 /* PBXContainerItemProxy */;
+		};
+		EC1CF2EB27A7038D006C8360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1CF2C827A7038C006C8360 /* SuperKahramanKitabi */;
+			targetProxy = EC1CF2EA27A7038D006C8360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1CF2D227A7038C006C8360 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1CF2D327A7038C006C8360 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1CF2D727A7038D006C8360 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1CF2D827A7038D006C8360 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1CF2F127A7038D006C8360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC1CF2F227A7038D006C8360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1CF2F427A7038D006C8360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K77FAAPLZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperKahramanKitabi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hacisimsek.SuperKahramanKitabi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1CF2F527A7038D006C8360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K77FAAPLZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperKahramanKitabi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hacisimsek.SuperKahramanKitabi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC1CF2F727A7038D006C8360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K77FAAPLZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hacisimsek.SuperKahramanKitabiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperKahramanKitabi.app/SuperKahramanKitabi";
+			};
+			name = Debug;
+		};
+		EC1CF2F827A7038D006C8360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K77FAAPLZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hacisimsek.SuperKahramanKitabiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperKahramanKitabi.app/SuperKahramanKitabi";
+			};
+			name = Release;
+		};
+		EC1CF2FA27A7038D006C8360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K77FAAPLZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hacisimsek.SuperKahramanKitabiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperKahramanKitabi;
+			};
+			name = Debug;
+		};
+		EC1CF2FB27A7038D006C8360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K77FAAPLZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hacisimsek.SuperKahramanKitabiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperKahramanKitabi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1CF2C427A7038C006C8360 /* Build configuration list for PBXProject "SuperKahramanKitabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1CF2F127A7038D006C8360 /* Debug */,
+				EC1CF2F227A7038D006C8360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1CF2F327A7038D006C8360 /* Build configuration list for PBXNativeTarget "SuperKahramanKitabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1CF2F427A7038D006C8360 /* Debug */,
+				EC1CF2F527A7038D006C8360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1CF2F627A7038D006C8360 /* Build configuration list for PBXNativeTarget "SuperKahramanKitabiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1CF2F727A7038D006C8360 /* Debug */,
+				EC1CF2F827A7038D006C8360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1CF2F927A7038D006C8360 /* Build configuration list for PBXNativeTarget "SuperKahramanKitabiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1CF2FA27A7038D006C8360 /* Debug */,
+				EC1CF2FB27A7038D006C8360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1CF2C127A7038C006C8360 /* Project object */;
+}
