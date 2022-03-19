@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ovp-QU-TNn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ovp-QU-TNn">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -44,17 +44,18 @@
         <scene sceneID="q2N-U2-InH">
             <objects>
                 <viewController id="VCG-ah-TC6" customClass="DetailsViewController" customModule="AlisverisSepeti" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="i4t-aY-icL">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="i4t-aY-icL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tıkla" translatesAutoresizingMaskIntoConstraints="NO" id="Gjc-ou-GJY">
-                                <rect key="frame" x="87" y="147" width="240" height="128"/>
+                                <rect key="frame" x="87" y="147" width="250" height="128"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aP-NG-Qan">
-                                <rect key="frame" x="157" y="492" width="101" height="43"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aP-NG-Qan">
+                                <rect key="frame" x="157" y="492" width="110" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="Rqa-fx-jx6"/>
+                                    <constraint firstAttribute="width" constant="110" id="mFb-nB-JGy"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Kaydet"/>
@@ -63,7 +64,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ürün ismi" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jv2-RN-Fl8">
-                                <rect key="frame" x="87" y="366" width="240" height="34"/>
+                                <rect key="frame" x="87" y="366" width="250" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="fs6-Kx-IUQ"/>
                                 </constraints>
@@ -71,7 +72,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ürün fiyatı" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tZb-hz-rla">
-                                <rect key="frame" x="87" y="408" width="240" height="34"/>
+                                <rect key="frame" x="87" y="408" width="250" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="bEg-Gq-Lxi"/>
                                 </constraints>
@@ -79,7 +80,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ürün Bedeni" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6EJ-VB-bTT">
-                                <rect key="frame" x="87" y="450" width="240" height="34"/>
+                                <rect key="frame" x="87" y="450" width="250" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="nRh-jY-uAs"/>
                                 </constraints>
