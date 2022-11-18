@@ -67,11 +67,21 @@
                                     <segue destination="BYu-6Q-kYc" kind="presentation" id="iu4-bA-II0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssr-Kq-5rR">
+                                <rect key="frame" x="133" y="594" width="127" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Go to dismiss"/>
+                                <connections>
+                                    <action selector="tiklaDismiss:" destination="oyg-7V-SWN" eventType="touchUpInside" id="z7w-1T-87q"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GMh-51-HFp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ssr-Kq-5rR" firstAttribute="centerX" secondItem="wtF-4X-tbW" secondAttribute="centerX" id="2Hs-AL-l8a"/>
                             <constraint firstItem="WTz-bT-Iz2" firstAttribute="centerX" secondItem="wtF-4X-tbW" secondAttribute="centerX" id="hWm-qt-e5F"/>
+                            <constraint firstItem="ssr-Kq-5rR" firstAttribute="top" secondItem="WTz-bT-Iz2" secondAttribute="bottom" constant="27" id="iXr-Db-IPN"/>
                             <constraint firstItem="Oiw-4v-4oy" firstAttribute="top" secondItem="GMh-51-HFp" secondAttribute="top" constant="141" id="jCz-Vq-H4b"/>
                             <constraint firstItem="Oiw-4v-4oy" firstAttribute="centerX" secondItem="wtF-4X-tbW" secondAttribute="centerX" id="kCz-4s-GdM"/>
                             <constraint firstItem="WTz-bT-Iz2" firstAttribute="top" secondItem="Oiw-4v-4oy" secondAttribute="bottom" constant="303" id="pQB-OC-AoV"/>
@@ -133,6 +143,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="iu4-bA-II0"/>
         <segue reference="OqB-Fc-N2Q"/>
     </inferredMetricsTieBreakers>
     <resources>

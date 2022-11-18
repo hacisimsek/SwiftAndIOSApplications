@@ -14,5 +14,8 @@ class ViewController2: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func tiklaDismiss(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 }
