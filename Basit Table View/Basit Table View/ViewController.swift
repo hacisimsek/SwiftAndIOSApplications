@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -34,6 +34,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             print("dneem ref")
         }
     
+    
+    
+}
+
+extension ViewController:UITableViewDelegate,UITableViewDataSource{
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -61,6 +66,5 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         }
     }
  
-    
 }
 
