@@ -8,7 +8,16 @@
 import UIKit
 
 class ProductTableViewCell: UITableViewCell {
-
+    
+    /* MARK: PROPERTEİS */
+    
+    @IBOutlet weak var artistImgView: UIImageView!
+    @IBOutlet weak var trackNameLbl: UILabel!
+    @IBOutlet weak var artistNameLbl: UILabel!
+    @IBOutlet weak var artistLbl: UILabel!
+    
+    /* MARK: FUNCTİONS */
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
