@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -73,6 +74,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
                 let nserror = error as NSError
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+            }
+        }
+    }
+    
+    
+    // MARK: - Get application token
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        let tokenParts = deviceToken.map(data in String(format: "%02.2hhx", data))
+        let token = tokenParts.joined()
+        print("device token: \(token)")
+    }
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("Failed to register: \(error)")
+    }
+    // MARK: - User notification
+    private func registerForPushNotification(){
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.badge,.sound]) { granted, _ in
+            print("Permission grannted: \(granted)")
+            guard granted else {return}
+            self.getNotificationSettings()
+        }
+    }
+    private func getNotificationSettings(){
+        UNUserNotificationCenter.current().getNotificationSettings { settings in
+            print("Notifications settings: \(settings)")
+            guard settings.authorizationStatus == .authorized else {
+                return
+            }
+            DispatchQueue.main.async {
+                UIApplication.shared.registerForRemoteNotifications()
             }
         }
     }

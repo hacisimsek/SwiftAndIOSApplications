@@ -9,11 +9,11 @@ import UIKit
 import CoreLocation
 
 class ViewController: UIViewController {
-    //Mark: -Variables
+    //MARK: - Variables
     @IBOutlet weak var locationLbl: UILabel!
     var location: CLLocationManager?
     
-    //Mark: -Functions
+    //MARK: - Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         managerUserLocation()
@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         location?.delegate = self
         location?.requestAlwaysAuthorization()
         location?.startUpdatingLocation()
+        location?.allowsBackgroundLocationUpdates = true
     }
 }
 
